@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { useMessageStore } from "@/stores/message-store";
+import { useMessageStore } from "@/features/message/message-store";
 
 export const TTSManager: React.FC = () => {
   const {
