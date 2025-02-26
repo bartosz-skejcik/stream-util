@@ -1,7 +1,7 @@
 import axios from "axios";
 import { ApiService, Response } from "@/types/services/api";
 
-const API_URL = "http://localhost:42069/api";
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
 const axiosInstance = axios.create({
   baseURL: API_URL,
